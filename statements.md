@@ -359,3 +359,81 @@ Array elements are: 10 20 30 40 50
 - Array input/output
 - Loop usage
 - Basic program structure
+
+# Problem 8: Sum of Array Elements
+
+## Problem Statement:
+Write a C program to calculate the **sum of all elements in an array**.
+
+---
+
+## Requirements:
+
+- Ask the user to enter:
+  - Number of elements (n)
+  - Elements of the array
+
+- Calculate the sum of all elements
+- Display the result
+
+---
+
+## Example:
+
+### Input:
+Enter number of elements: 5  
+Enter elements: 10 20 30 40 50  
+
+### Output:
+Sum = 150  
+
+---
+
+## Constraints:
+- 1 ≤ n ≤ 100  
+
+---
+
+## Expected Learning Outcomes:
+- Accumulation using loops
+- Understanding variable initialization
+- Building on array traversal
+
+# Problem 9: Average of Array Elements
+
+## Problem Statement:
+Write a C program to calculate the **average of elements in an array**.
+
+---
+
+## Requirements:
+
+- Ask the user to enter:
+  - Number of elements (n)
+  - Elements of the array
+
+- Calculate the average of all elements
+- Display the result up to 2 decimal places
+
+---
+
+## Example:
+
+### Input:
+Enter number of elements: 5  
+Enter elements: 10 20 30 40 50  
+
+### Output:
+Average = 30.00  
+
+---
+
+## Constraints:
+- 1 ≤ n ≤ 100  
+
+---
+
+## Expected Learning Outcomes:
+- Typecasting in C
+- Integer vs float division
+- Precision handling in output
