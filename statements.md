@@ -180,3 +180,182 @@ After input, repeatedly display the following menu:
 🟡 Medium → 🔴 Approaching Advanced
 
 ---
+
+# Problem 4: Sum and Average of Array Elements
+
+## Problem Statement:
+Write a C program to calculate the **sum and average of elements in an array**.
+
+---
+
+## Requirements:
+
+- Ask the user to enter:
+  - Number of elements (n)
+  - Elements of the array
+
+- Calculate:
+  - Sum of all elements
+  - Average of elements
+
+- Display both results
+
+---
+
+## Example:
+
+### Input:
+
+Enter number of elements: 5
+Enter elements: 10 20 30 40 50
+
+
+### Output:
+
+Sum = 150
+Average = 30.00
+
+
+---
+
+## Constraints:
+- 1 ≤ n ≤ 100
+
+---
+
+## Expected Learning Outcomes:
+- Array traversal
+- Accumulation using loops
+- Typecasting for accurate average
+
+# Problem 5: Find Largest Number in an Array
+
+## Problem Statement:
+Write a C program to find the **largest element in an array**.
+
+---
+
+## Requirements:
+
+- Ask the user to enter:
+  - Number of elements (n)
+  - Elements of the array
+
+- Find and display the **largest number** among them.
+
+---
+
+## Example:
+
+### Input:
+
+- Enter number of elements: 5
+- Enter elements: 10 25 7 89 34
+
+### Output:
+- Largest number = 89
+
+---
+
+## Constraints:
+- 1 ≤ n ≤ 100
+
+---
+
+## Expected Learning Outcomes:
+- Array basics
+- Loop usage
+- Comparison logic (if condition)
+
+# Problem 6: Find Second Largest Element in an Array
+
+## Problem Statement:
+Write a C program to find the **second largest element** in an array.
+
+---
+
+## Requirements:
+
+- Ask the user to enter:
+  - Number of elements (n)
+  - Elements of the array
+
+- Find and display the **second largest number**.
+
+---
+
+## Example:
+
+### Input:
+
+Enter number of elements: 5
+Enter elements: 10 25 7 89 34
+
+
+### Output:
+
+Second largest number = 34
+
+
+---
+
+## Important Notes:
+- The second largest element must be **different from the largest**
+- If all elements are same or no second largest exists, print:
+
+No second largest element
+
+
+---
+
+## Constraints:
+- 1 ≤ n ≤ 100
+
+---
+
+## Expected Learning Outcomes:
+- Advanced comparison logic
+- Handling edge cases
+- Multiple variable tracking (largest & second largest)
+
+# Problem 7: Input and Display Array Elements
+
+## Problem Statement:
+Write a C program to:
+
+1. Accept n elements from the user  
+2. Store them in an array  
+3. Display all elements  
+
+---
+
+## Requirements:
+
+- Ask the user to enter:
+  - Number of elements (n)
+  - Elements of the array
+
+- Display all elements in the same order
+
+---
+
+## Example:
+
+### Input:
+Enter number of elements: 5  
+Enter elements: 10 20 30 40 50  
+
+### Output:
+Array elements are: 10 20 30 40 50  
+
+---
+
+## Constraints:
+- 1 ≤ n ≤ 100  
+
+---
+
+## Expected Learning Outcomes:
+- Array input/output
+- Loop usage
+- Basic program structure
