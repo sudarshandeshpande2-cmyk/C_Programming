@@ -437,3 +437,98 @@ Average = 30.00
 - Typecasting in C
 - Integer vs float division
 - Precision handling in output
+# Problem 10: Find Maximum and Minimum in Array
+
+## Problem Statement:
+Write a C program to find the **maximum and minimum elements** in an array.
+
+---
+
+## Requirements:
+
+- Ask the user to enter:
+  - Number of elements (n)
+  - Elements of the array
+
+- Find:
+  - Maximum element
+  - Minimum element
+
+- Display both values
+
+---
+
+## Example:
+
+### Input:
+Enter number of elements: 5  
+Enter elements: 12 45 7 89 23  
+
+### Output:
+Maximum = 89  
+Minimum = 7  
+
+---
+
+## Constraints:
+- 1 ≤ n ≤ 100  
+
+---
+
+## Expected Learning Outcomes:
+- Array traversal  
+- Comparison logic  
+- Using variables to track max/min  
+# Problem 11: Find Second Largest Element in Array
+
+## Problem Statement:
+Write a C program to find the **second largest element** in an array.
+
+---
+
+## Requirements:
+
+- Ask the user to enter:
+  - Number of elements (n)
+  - Elements of the array
+
+- Find:
+  - Second largest element
+
+- If second largest does not exist (e.g., all elements are same), display:
+  Second largest element not found
+
+---
+
+## Example 1:
+
+### Input:
+Enter number of elements: 5  
+Enter elements: 10 20 30 40 50  
+
+### Output:
+Second Largest = 40  
+
+---
+
+## Example 2:
+
+### Input:
+Enter number of elements: 4  
+Enter elements: 5 5 5 5  
+
+### Output:
+Second largest element not found  
+
+---
+
+## Constraints:
+- 1 ≤ n ≤ 100  
+
+---
+
+## Expected Learning Outcomes:
+- Advanced array traversal  
+- Handling edge cases  
+- Tracking multiple values (largest & second largest)  
+- Conditional logic refinement  
