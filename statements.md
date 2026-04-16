@@ -532,3 +532,74 @@ Second largest element not found
 - Handling edge cases  
 - Tracking multiple values (largest & second largest)  
 - Conditional logic refinement  
+# Problem 12: Third Largest Element in Array (Using Functions)
+
+## Problem Statement:
+Write a C program to find the **third largest distinct element** in an array using **functions**.
+
+---
+
+## Requirements:
+
+- Ask the user to enter:
+  - Number of elements (n)
+  - Elements of the array
+
+- Create a function:
+  int thirdLargest(int arr[], int n);
+
+- The function should:
+  - Return the **third largest distinct element**
+  - If the third largest element does not exist, return INT_MIN
+
+---
+
+## Important Conditions:
+
+- Only **distinct elements** should be considered when finding largest values
+
+- Example:
+  Input: 10 20 20 30 40  
+  Distinct elements: 10, 20, 30, 40  
+  Third largest = 20  
+
+- If the third largest element does not exist, display:
+  Third largest element not found
+
+---
+
+## Example 1:
+
+Input:  
+Enter number of elements: 6  
+Enter elements: 5 10 15 20 25 30  
+
+Output:  
+Third Largest = 20  
+
+---
+
+## Example 2:
+
+Input:  
+Enter number of elements: 4  
+Enter elements: 7 7 7 7  
+
+Output:  
+Third largest element not found  
+
+---
+
+## Constraints:
+- 1 ≤ n ≤ 100  
+
+---
+
+## Expected Learning Outcomes:
+- Function usage in C  
+- Passing arrays to functions  
+- Advanced array traversal  
+- Handling duplicates and edge cases  
+- Tracking multiple variables (largest, second, third)  
+
+---
