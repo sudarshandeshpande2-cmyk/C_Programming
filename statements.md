@@ -603,3 +603,69 @@ Third largest element not found
 - Tracking multiple variables (largest, second, third)  
 
 ---
+## Problem 13: Count Frequency of Each Element in Array
+
+### Problem Statement:
+Write a C program to count the **frequency of each element** in an array.
+
+---
+
+### Requirements:
+
+- Ask the user to enter:
+  - Number of elements (n)
+  - Elements of the array
+
+- For each element, display how many times it appears in the array
+
+- Each element’s frequency should be printed **only once**
+
+---
+
+### Important Conditions:
+
+- Do NOT print duplicate frequency entries
+
+- Example:  
+  Input: 10 20 10 30 20  
+  Output:  
+  10 occurs 2 times  
+  20 occurs 2 times  
+  30 occurs 1 time  
+
+---
+
+### Example 1:
+
+Input:  
+Enter number of elements: 5  
+Enter elements: 1 2 2 3 1  
+
+Output:  
+1 occurs 2 times  
+2 occurs 2 times  
+3 occurs 1 time  
+
+---
+
+### Example 2:
+
+Input:  
+Enter number of elements: 4  
+Enter elements: 7 7 7 7  
+
+Output:  
+7 occurs 4 times  
+
+---
+
+### Constraints:
+- 1 ≤ n ≤ 100  
+
+---
+
+### Expected Learning Outcomes:
+- Nested loops with arrays  
+- Counting techniques  
+- Avoiding duplicate processing  
+- Basic frequency logic (foundation for hashing later)  
