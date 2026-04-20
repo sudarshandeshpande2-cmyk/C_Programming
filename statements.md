@@ -669,3 +669,56 @@ Output:
 - Counting techniques  
 - Avoiding duplicate processing  
 - Basic frequency logic (foundation for hashing later)  
+## Problem 14: Find the First Non-Repeating Element in Array
+
+### Problem Statement:
+Write a C program to find the **first non-repeating element** in an array.
+
+---
+
+### Requirements:
+- Ask the user to enter:
+  - Number of elements (n)
+  - Elements of the array
+- For the given array, identify and display the **first element that occurs only once**
+
+---
+
+### Important Conditions:
+- Do NOT sort the array
+- Traverse the array in order and print the **first element with frequency = 1**
+- If all elements repeat, print an appropriate message
+
+---
+
+### Example:
+Input: 4 5 1 2 0  
+Output:  
+4 is the first non-repeating element  
+
+---
+
+### Example 1:
+Input: 1 2 2 3 1 4  
+Output:  
+3 is the first non-repeating element  
+
+---
+
+### Example 2:
+Input: 7 7 7 7  
+Output:  
+No non-repeating element found  
+
+---
+
+### Constraints:
+- 1 ≤ n ≤ 100  
+
+---
+
+### Expected Learning Outcomes:
+- Nested loops with arrays  
+- Counting logic reuse from previous problem  
+- Avoiding unnecessary iterations  
+- Understanding element uniqueness logic  
