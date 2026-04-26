@@ -577,5 +577,268 @@ Invalid input
 
 Start loop from:
 
+---
+
+# 📘 Problem 10: Copy One Array into Another
+
+## 🧠 Problem Statement
+
+Write a C program to copy all elements of one array into another array.
+
+---
+
+## 🎯 Requirements
+
+- Ask the user to enter:
+  - Number of elements (`n`)
+  - Elements of the first array
+
+- Store values in an integer array
+
+- Create a second array of same size
+
+- Copy all elements from first array to second array using a loop
+
+- Display the copied array elements
+
+---
+
+## 📌 Example 1
+
+### Input
+
+Enter number of elements: 5  
+Enter elements: 10 20 30 40 50
+
+### Output
+
+Copied array: 10 20 30 40 50
+
+---
+
+## 📌 Example 2
+
+### Input
+
+Enter number of elements: 4  
+Enter elements: 7 9 1 6
+
+### Output
+
+Copied array: 7 9 1 6
+
+---
+
+## ⚙️ Constraints
+
+- `1 <= n <= 100`
+
+If user enters invalid size, print:
+
+Invalid input
+
+---
+
+## 🎓 Expected Learning Outcomes
+
+- Using two arrays
+- Element-wise copying
+- Parallel indexing
+- Traversal logic
+
+---
+# 📘 Problem 11: Find Second Largest Element in Array
+
+## 🧠 Problem Statement
+
+Write a C program to find the **second largest distinct element** in an array.
+
+---
+
+## 🎯 Requirements
+
+- Ask the user to enter:
+  - Number of elements (`n`)
+  - Elements of the array
+
+- Store values in an integer array
+
+- Find:
+  - Largest element
+  - Second largest **distinct** element
+
+- Display the second largest element
+
+- If second largest does not exist, print an appropriate message
+
+---
+
+## 📌 Example 1
+
+### Input
+
+Enter number of elements: 5  
+Enter elements: 10 20 30 40 50
+
+### Output
+
+Second largest element = 40
+
+---
+
+## 📌 Example 2
+
+### Input
+
+Enter number of elements: 5  
+Enter elements: 9 9 9 9 9
+
+### Output
+
+Second largest element not found
+
+---
+
+## 📌 Example 3
+
+### Input
+
+Enter number of elements: 6  
+Enter elements: 10 50 50 30 20 40
+
+### Output
+
+Second largest element = 40
+
+---
+
+## ⚙️ Constraints
+
+- `1 <= n <= 100`
+
+If user enters invalid size, print:
+
+Invalid input
+
+---
+
+## 🎓 Expected Learning Outcomes
+
+- Tracking multiple values
+- Distinct value handling
+- Conditional logic refinement
+- One-pass scanning strategy
+
+---
+
+## 💀 God Level Rules
+
+- Do not sort the array
+- Solve using traversal logic
+- Second largest must be different from largest
+- Handle duplicates correctly
+
+---
+
+# 📘 Problem 12: Find Third Largest Distinct Element in Array
+
+## 🧠 Problem Statement
+
+Write a C program to find the **third largest distinct element** in an array.
+
+---
+
+## 🎯 Requirements
+
+- Ask the user to enter:
+  - Number of elements (`n`)
+  - Elements of the array
+
+- Store values in an integer array
+
+- Find:
+  - Largest element
+  - Second largest distinct element
+  - Third largest distinct element
+
+- Display the third largest element
+
+- If third largest does not exist, print an appropriate message
+
+---
+
+## 📌 Example 1
+
+### Input
+
+Enter number of elements: 6  
+Enter elements: 10 20 30 40 50 60
+
+### Output
+
+Third largest element = 40
+
+---
+
+## 📌 Example 2
+
+### Input
+
+Enter number of elements: 6  
+Enter elements: 10 50 50 30 20 40
+
+### Output
+
+Third largest element = 30
+
+---
+
+## 📌 Example 3
+
+### Input
+
+Enter number of elements: 5  
+Enter elements: 9 9 9 9 9
+
+### Output
+
+Third largest element not found
+
+---
+
+## ⚙️ Constraints
+
+- `1 <= n <= 100`
+
+If user enters invalid size, print:
+
+Invalid input
+
+---
+
+## 🎓 Expected Learning Outcomes
+
+- Tracking three values simultaneously
+- Distinct element handling
+- Multi-branch conditional logic
+- State management using flags
+
+---
+
+## 💀 God Level Rules
+
+- Do not sort the array
+- Solve using traversal logic
+- Values must be distinct
+- Handle duplicates correctly
+
+---
+
+## 🧠 Hint
+
+Track:
+
 ```c
-n - 1
+largest
+second_largest
+third_largest
