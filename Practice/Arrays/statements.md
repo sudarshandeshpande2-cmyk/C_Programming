@@ -834,11 +834,83 @@ Invalid input
 
 ---
 
-## 🧠 Hint
+# 📘 Problem 13: Find Frequency of Each Element in Array
 
-Track:
+## 🧠 Problem Statement
 
-```c
-largest
-second_largest
-third_largest
+Write a C program to find and display the **frequency of each distinct element** in an array.
+
+---
+
+## 🎯 Requirements
+
+- Ask the user to enter:
+  - Number of elements (`n`)
+  - Elements of the array
+
+- Store values in an integer array
+
+- Count how many times each distinct element appears
+
+- Display each element with its frequency
+
+- Repeated elements should be reported only once
+
+---
+
+## 📌 Example 1
+
+### Input
+
+Enter number of elements: 6  
+Enter elements: 10 20 10 30 20 10
+
+### Output
+
+10 occurs 3 times  
+20 occurs 2 times  
+30 occurs 1 time
+
+---
+
+## 📌 Example 2
+
+### Input
+
+Enter number of elements: 5  
+Enter elements: 7 7 7 7 7
+
+### Output
+
+7 occurs 5 times
+
+---
+
+## ⚙️ Constraints
+
+- `1 <= n <= 100`
+
+If user enters invalid size, print:
+
+Invalid input
+
+---
+
+## 🎓 Expected Learning Outcomes
+
+- Nested loops
+- Counting logic
+- Duplicate skipping
+- Frequency analysis
+
+---
+
+## 💀 God Level Rules
+
+- Do not sort the array
+- Display each distinct value only once
+- Use traversal logic
+- Keep output readable
+
+---
+
