@@ -913,4 +913,94 @@ Invalid input
 - Keep output readable
 
 ---
+# 📘 Problem 14: Find First Non-Repeating Element in Array
+
+## 🧠 Problem Statement
+
+Write a C program to find the **first non-repeating element** in an array.
+
+---
+
+## 🎯 Requirements
+
+- Ask the user to enter:
+  - Number of elements (`n`)
+  - Elements of the array
+
+- Store values in an integer array
+
+- Find the first element whose frequency is exactly `1`
+
+- Display that element
+
+- If no such element exists, print an appropriate message
+
+---
+
+## 📌 Example 1
+
+### Input
+
+Enter number of elements: 6  
+Enter elements: 10 20 10 30 20 40
+
+### Output
+
+First non-repeating element = 30
+
+---
+
+## 📌 Example 2
+
+### Input
+
+Enter number of elements: 5  
+Enter elements: 7 7 9 9 11
+
+### Output
+
+First non-repeating element = 11
+
+---
+
+## 📌 Example 3
+
+### Input
+
+Enter number of elements: 4  
+Enter elements: 5 5 8 8
+
+### Output
+
+No non-repeating element found
+
+---
+
+## ⚙️ Constraints
+
+- `1 <= n <= 100`
+
+If user enters invalid size, print:
+
+Invalid input
+
+---
+
+## 🎓 Expected Learning Outcomes
+
+- Frequency checking
+- Nested loops
+- Early break on first valid match
+- Logical scanning order
+
+---
+
+## 💀 God Level Rules
+
+- Do not sort the array
+- Preserve original order
+- First means first by appearance
+- Stop once answer is found
+
+---
 
