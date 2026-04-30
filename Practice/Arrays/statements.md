@@ -1004,3 +1004,106 @@ Invalid input
 
 ---
 
+# 📘 Problem 15: Find Intersection of Two Arrays (Unique Elements Only)
+
+## 🧠 Problem Statement
+
+Write a C program to find the **intersection of two arrays**, i.e., elements that are common in both arrays.
+
+- Each common element should be printed **only once**
+- Order of appearance should follow the **first array**
+
+---
+
+## 🎯 Requirements
+
+- Ask the user to enter:
+  - Size of first array (`n`)
+  - Elements of first array
+  - Size of second array (`m`)
+  - Elements of second array
+
+- Find elements that appear in **both arrays**
+
+- Print each common element **only once**
+
+- If no common elements exist, print an appropriate message
+
+---
+
+## 📌 Example 1
+
+### Input
+
+Enter size of first array: 5  
+Enter elements: 1 2 3 4 5  
+
+Enter size of second array: 4  
+Enter elements: 3 4 5 6  
+
+### Output
+
+Intersection elements: 3 4 5
+
+---
+
+## 📌 Example 2
+
+### Input
+
+Enter size of first array: 5  
+Enter elements: 1 2 2 3 4  
+
+Enter size of second array: 5  
+Enter elements: 2 2 4 4 6  
+
+### Output
+
+Intersection elements: 2 4
+
+---
+
+## 📌 Example 3
+
+### Input
+
+Enter size of first array: 3  
+Enter elements: 1 2 3  
+
+Enter size of second array: 3  
+Enter elements: 4 5 6  
+
+### Output
+
+No common elements found
+
+---
+
+## ⚙️ Constraints
+
+- `1 <= n, m <= 100`
+
+If user enters invalid size, print:
+
+Invalid input
+
+---
+
+## 🎓 Expected Learning Outcomes
+
+- Working with two arrays
+- Nested loops comparison
+- Duplicate elimination
+- Conditional filtering
+
+---
+
+## 💀 God Level Rules
+
+- Do not sort arrays
+- Do not use extra data structures
+- Preserve order of first array
+- Print only unique intersection elements
+
+---
+
