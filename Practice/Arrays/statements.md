@@ -1106,4 +1106,99 @@ Invalid input
 - Print only unique intersection elements
 
 ---
+# 📘 Problem 16: Find Union of Two Arrays (Unique Elements Only)
+
+## 🧠 Problem Statement
+
+Write a C program to find the **union of two arrays**, i.e., all distinct elements from both arrays.
+
+- Each element should appear **only once**
+- Order should follow:
+  - First array elements (in order)
+  - Then remaining elements from second array
+
+---
+
+## 🎯 Requirements
+
+- Ask the user to enter:
+  - Size of first array (`n`)
+  - Elements of first array
+  - Size of second array (`m`)
+  - Elements of second array
+
+- Combine both arrays into a union of **unique elements**
+
+- Print all unique elements
+
+- If arrays are valid, always print union
+
+---
+
+## 📌 Example 1
+
+### Input
+
+Enter size of first array: 4  
+Enter elements: 1 2 3 4  
+
+Enter size of second array: 4  
+Enter elements: 3 4 5 6  
+
+### Output
+
+Union elements: 1 2 3 4 5 6
+
+---
+
+## 📌 Example 2
+
+### Input
+
+Enter size of first array: 5  
+Enter elements: 1 2 2 3 4  
+
+Enter size of second array: 5  
+Enter elements: 2 2 4 4 6  
+
+### Output
+
+Union elements: 1 2 3 4 6
+
+---
+
+## 📌 Example 3
+
+### Input
+
+Enter size of first array: 3  
+Enter elements: 7 8 9  
+
+Enter size of second array: 3  
+Enter elements: 7 8 9  
+
+### Output
+
+Union elements: 7 8 9
+
+---
+
+## ⚙️ Constraints
+
+- `1 <= n, m <= 100`
+
+If user enters invalid size, print:
+
+Invalid input
+
+---
+
+## 🎓 Expected Learning Outcomes
+
+- Two-array traversal
+- Duplicate elimination
+- Order preservation
+- Conditional filtering
+
+---
 
