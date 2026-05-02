@@ -1202,3 +1202,107 @@ Invalid input
 
 ---
 
+# 📘 Problem 17: Left Rotate Array by K Positions
+
+## 🧠 Problem Statement
+
+Write a C program to **left rotate an array by `k` positions**.
+
+- After rotation, elements shift to the left
+- Elements that go out from the front should come back at the end
+
+---
+
+## 🎯 Requirements
+
+- Ask the user to enter:
+  - Number of elements (`n`)
+  - Elements of the array
+  - Number of positions to rotate (`k`)
+
+- Perform **left rotation**
+
+- Display the rotated array
+
+---
+
+## 📌 Example 1
+
+### Input
+
+Enter number of elements: 5  
+Enter elements: 1 2 3 4 5  
+Enter k: 2  
+
+### Output
+
+Rotated array: 3 4 5 1 2
+
+---
+
+## 📌 Example 2
+
+### Input
+
+Enter number of elements: 4  
+Enter elements: 10 20 30 40  
+Enter k: 1  
+
+### Output
+
+Rotated array: 20 30 40 10
+
+---
+
+## 📌 Example 3
+
+### Input
+
+Enter number of elements: 5  
+Enter elements: 1 2 3 4 5  
+Enter k: 7  
+
+### Output
+
+Rotated array: 3 4 5 1 2
+
+---
+
+## ⚙️ Constraints
+
+- `1 <= n <= 100`
+- `k >= 0`
+
+If input is invalid, print:
+
+Invalid input
+
+---
+
+## 🎓 Expected Learning Outcomes
+
+- Array rotation logic
+- Modulo operation (`k % n`)
+- Index shifting
+- Temporary storage usage
+
+---
+
+## 💀 God Level Rules
+
+- Do not use extra arrays for final solution (try in-place)
+- Handle `k > n` properly
+- Maintain order of rotated elements
+
+---
+
+## 🧠 Hint
+
+- First reduce `k` using:  
+  `k = k % n`
+
+- Two approaches:
+  1. Shift one-by-one (simple but less efficient)
+  2. Reverse parts of array (advanced)
+
+---
