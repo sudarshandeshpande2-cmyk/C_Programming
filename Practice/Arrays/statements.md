@@ -1306,3 +1306,95 @@ Invalid input
   2. Reverse parts of array (advanced)
 
 ---
+# 📘 Problem 18: Right Rotate Array by K Positions
+
+## 🧠 Problem Statement
+
+Write a C program to **right rotate an array by `k` positions**.
+
+- Elements shift to the right
+- Elements that go out from the end should come back at the beginning
+
+---
+
+## 🎯 Requirements
+
+- Ask the user to enter:
+  - Number of elements (`n`)
+  - Elements of the array
+  - Number of positions to rotate (`k`)
+
+- Perform **right rotation**
+
+- Display the rotated array
+
+---
+
+## 📌 Example 1
+
+### Input
+
+Enter number of elements: 5  
+Enter elements: 1 2 3 4 5  
+Enter k: 2  
+
+### Output
+
+Rotated array: 4 5 1 2 3
+
+---
+
+## 📌 Example 2
+
+### Input
+
+Enter number of elements: 4  
+Enter elements: 10 20 30 40  
+Enter k: 1  
+
+### Output
+
+Rotated array: 40 10 20 30
+
+---
+
+## 📌 Example 3
+
+### Input
+
+Enter number of elements: 5  
+Enter elements: 1 2 3 4 5  
+Enter k: 7  
+
+### Output
+
+Rotated array: 4 5 1 2 3
+
+---
+
+## ⚙️ Constraints
+
+- `1 <= n <= 100`
+- `k >= 0`
+
+If input is invalid, print:
+
+Invalid input
+
+---
+
+## 🎓 Expected Learning Outcomes
+
+- Reverse logic application
+- Understanding rotation symmetry
+- Index manipulation
+
+---
+
+## 💀 God Level Rules
+
+- Do not use extra arrays
+- Must handle `k > n`
+- Maintain correct order
+
+---
