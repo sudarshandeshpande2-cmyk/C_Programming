@@ -1398,3 +1398,78 @@ Invalid input
 - Maintain correct order
 
 ---
+# 📘 Problem 19: Rotate Array Left by 1 Position (In-Place, Multiple Times)
+
+## 🧠 Problem Statement
+
+Write a C program to **rotate an array to the left by 1 position**, and repeat this operation `k` times.
+
+- Each rotation shifts elements left by 1
+- First element moves to the end
+
+---
+
+## 🎯 Requirements
+
+- Ask the user to enter:
+  - Number of elements (`n`)
+  - Elements of the array
+  - Number of rotations (`k`)
+
+- Perform **left rotation one-by-one, k times**
+
+- Display the final array
+
+---
+
+## 📌 Example 1
+
+### Input
+
+Enter number of elements: 5  
+Enter elements: 1 2 3 4 5  
+Enter k: 2  
+
+### Output
+
+Rotated array: 3 4 5 1 2
+
+---
+
+## 📌 Example 2
+
+### Input
+
+Enter number of elements: 4  
+Enter elements: 10 20 30 40  
+Enter k: 3  
+
+### Output
+
+Rotated array: 40 10 20 30
+
+---
+
+## ⚙️ Constraints
+
+- `1 <= n <= 100`
+- `k >= 0`
+
+---
+
+## 🎓 Expected Learning Outcomes
+
+- Step-by-step shifting logic
+- Loop inside loop (nested control)
+- Understanding how rotation actually works internally
+
+---
+
+## 💀 God Level Rules
+
+- Do NOT use reverse method here
+- Do NOT use extra arrays
+- Perform actual shifting
+- Understand element movement clearly
+
+---
